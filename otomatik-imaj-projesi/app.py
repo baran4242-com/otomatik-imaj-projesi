@@ -32,3 +32,7 @@ if __name__ == "__main__":
     port = int(os.getenv("PORT", "8000"))
     print(f"Service starting on port {port}; APP_VERSION={APP_VERSION}")
     HTTPServer(("0.0.0.0", port), Handler).serve_forever()
+
+
+
+# Surum 2 - ikinci imaj denemesi
